@@ -1,16 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
-  <title>Manual SKRw</title>
   <meta charset="UTF-8">
+  <title>Manual SKRw</title>
+
   <style>
-    body { font-family: Arial; margin: 0; padding: 20px; }
-    iframe { width: 100%; height: 95vh; border: none; }
+    body {
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+      overflow-x: hidden; /* evita scroll lateral */
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 900px; /* limite ideal */
+      margin: 0 auto;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    iframe {
+      width: 100%;
+      height: 90vh; /* ocupa 90% da altura da tela */
+      border: none;
+      display: block;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 26px;
+      margin-bottom: 20px;
+    }
   </style>
 </head>
+
 <body>
-  <iframe src="manual.jpg"></iframe>
+  <div class="container">
+    <h1>Manual SKRw</h1>
+
+    <iframe src="manual.jpg#view=FitH"></iframe>  
+  </div>
 </body>
-
 </html>
-
